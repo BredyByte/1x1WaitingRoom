@@ -15,32 +15,27 @@
 			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content">
 					<div class="modal-header justify-content-center">
-						<h1 class="modal-title fs-5">Waiting for players	!</h1>
+						<h1 class="modal-title fs-5">Waiting for players!</h1>
 					</div>
 					<div class="modal-body">
 						<div class="container d-flex align-items-center text-center justify-content-center gap-4">
-							<div class="first player-container">
-								<div class="img" style="background-image: url(./Bart.jpeg);"></div>
-								<div class="nick">
-									<span>Bart</span>
-									<!-- <i class="fa-regular fa-circle-check"></i> -->
+							<div class="accepted player-container">
+								<div class="img" style="background-image: url(./Bart.jpeg);">
 								</div>
+								<span>Bart</span>
 							</div>
 							<div class="vs">
 								<i class="fa-solid fa-v"></i> / <i class="fa-solid fa-s"></i>
 							</div>
-							<div class="second player-container">
+							<div class="canceled player-container">
 								<div class="img" style="background-image: url(./Lilly.png);"></div>
-								<div class="nick">
-									<span>Lilly</span>
-									<!-- <i class="fa-regular fa-hourglass"></i> -->
-								</div>
+								<span>Lilly</span>
 							</div>
 						</div>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary">Understood</button>
+						<div class="timer">0:60</div>
+						<button type="button" class="btn action-btn cancel">cancel</button>
 					</div>
 				</div>
 			</div>
